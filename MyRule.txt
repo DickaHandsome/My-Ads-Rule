@@ -1,13 +1,13 @@
 !Title: My Ads Rule
 !======================================
-!Total lines: 513
+!Total lines: 515
 !Version: v2026.07.07
 
 !Homepage: https://github.com/DickaHandsome/My-Ads-Rule
 !License: https://github.com/DickaHandsome/My-Ads-Rule/blob/main/LICENSE
 
 ! 分级统计:
-!   - ads: 163 条
+!   - ads: 165 条
 !   - malware: 228 条
 !   - privacy: 124 条
 !======================================
@@ -175,6 +175,8 @@
 ||sdkoptedge.chinanetcenter.com^
 ||httpdns.alicdn.com^
 ||httpdns.bcelive.com^
+||ddssc.cn^
+||vp1.ddssc.cn^
 ||51.la^
 ||51la^
 ||cnzz.com^
