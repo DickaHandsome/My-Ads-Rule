@@ -8,9 +8,10 @@
 
 ! 分类统计:
 !   - ads: 132 条
-!   - malware: 228 条
+!   - malware: 226 条
 !   - privacy: 124 条
 !======================================
+
 ||doubleclick.net^
 ||googlesyndication.com^
 ||googleadservices.com^
