@@ -162,50 +162,35 @@
 ! ========== com.pathrecall.gj（轨迹记录 - 广告/追踪规则） ==========
 ! 来源: ADB tcpdump 三次深度抓包 + Host 头分析 (2026-07-07)
 ! App版本: 5.0.0 | UID: 10288
-! 
-! 注意: 以下为该 App 的广告 SDK / SSP / RTB 竞价平台域名
-! 不拦截其自有内容 CDN (xzjykj.com/gslock.com/skzsz.com)
-! 这 3 个CDN 同时承载用户上传图片和视频流播放，拦截会导致播放失败
+! 状态: 全块注释待排查 — 误伤了播放/图片域名
 !
 ! --- 纯广告 SDK & 竞价平台 ---
-! aiyituo.com = 广告素材CDN
-! zhangyuyidong.cn = 广告管理 /api/v4/ad/ti + SDK核心 + 日志上报
-! xcultur.com = SSP广告竞价平台
-! beizi.biz = 广告实时竞价 /b?...&m5=__IDFA__ + SDK初始化
-! 1rtb.net = 广告RTB竞价
-! fancyapi.com = 广告接口 (含g/t2/lftxali子域名)
-! adintl.cn = 广告服务
-! ndcjl.com = 广告聚合平台
-! chinanetcenter.com = 广告优化CDN
-||aiyituo.com^
-||ad-cdn.aiyituo.com^
-||zhangyuyidong.cn^
-||adm.zhangyuyidong.cn^
-||sdk.zhangyuyidong.cn^
-||sdklog.zhangyuyidong.cn^
-||xcultur.com^
-||api.ssp.xcultur.com^
-||beizi.biz^
-||api-htp.beizi.biz^
-||sdk.beizi.biz^
-||1rtb.net^
-||sdk.1rtb.net^
-||fancyapi.com^
-||g.fancyapi.com^
-||t2.fancyapi.com^
-||lftxali.fancyapi.com^
-||adintl.cn^
-||v.adintl.cn^
-||ndcjl.com^
-||p66-plat.ndcjl.com^
-||sdkoptedge.chinanetcenter.com^
+!||aiyituo.com^
+!||ad-cdn.aiyituo.com^
+!||zhangyuyidong.cn^
+!||adm.zhangyuyidong.cn^
+!||sdk.zhangyuyidong.cn^
+!||sdklog.zhangyuyidong.cn^
+!||xcultur.com^
+!||api.ssp.xcultur.com^
+!||beizi.biz^
+!||api-htp.beizi.biz^
+!||sdk.beizi.biz^
+!||1rtb.net^
+!||sdk.1rtb.net^
+!||fancyapi.com^
+!||g.fancyapi.com^
+!||t2.fancyapi.com^
+!||lftxali.fancyapi.com^
+!||adintl.cn^
+!||v.adintl.cn^
+!||ndcjl.com^
+!||p66-plat.ndcjl.com^
+!||sdkoptedge.chinanetcenter.com^
 !
-! --- HTTPDNS（绕过系统DNS解析广告域名） ---
-! httpdns.alicdn.com = 阿里HTTPDNS
-! httpdns.bcelive.com = 第三方HTTPDNS
-||httpdns.alicdn.com^
-||httpdns.bcelive.com^
+! --- HTTPDNS ---
+!||httpdns.alicdn.com^
+!||httpdns.bcelive.com^
 !
 ! --- 视频流广告CDN ---
-! vp1.ddssc.cn = 视频/短视频广告CDN
-||vp1.ddssc.cn^
+!||vp1.ddssc.cn^
