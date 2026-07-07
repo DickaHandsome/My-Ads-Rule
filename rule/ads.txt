@@ -89,9 +89,11 @@
 ! ========== 快手广告 ==========
 ||ad.partner.gifshow.com^
 ||adkwai.com^
+||kwimgs.com^
 ||js-ad.a.kwimgs.com^
 ||js-ad-e.kwimgs.com^
 ||js-ad-p.kwimgs.com^
+||hw2.a.kwimgs.com^
 ||api-sjz.kwaizt.com^
 
 ! ========== 网易广告 ==========
