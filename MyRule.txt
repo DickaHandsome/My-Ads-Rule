@@ -1,14 +1,14 @@
 !Title: My Ads Rule
 !======================================
-!Total lines: 515
+!Total lines: 507
 !Version: v2026.07.07
 
 !Homepage: https://github.com/DickaHandsome/My-Ads-Rule
 !License: https://github.com/DickaHandsome/My-Ads-Rule/blob/main/LICENSE
 
-! 分级统计:
-!   - ads: 165 条
-!   - malware: 228 条
+! 分类统计:
+!   - ads: 157 条
+!   - malware: 226 条
 !   - privacy: 124 条
 !======================================
 
@@ -144,13 +144,6 @@
 ||supersonicads.com^
 ||mintegral.com^
 ||fyber.com^
-||xzjykj.com^
-||wim.xzjykj.com^
-||swimg.xzjykj.com^
-||gslock.com^
-||xsp.gslock.com^
-||skzsz.com^
-||xspw.skzsz.com^
 ||aiyituo.com^
 ||ad-cdn.aiyituo.com^
 ||zhangyuyidong.cn^
@@ -167,15 +160,14 @@
 ||fancyapi.com^
 ||g.fancyapi.com^
 ||t2.fancyapi.com^
+||lftxali.fancyapi.com^
 ||adintl.cn^
 ||v.adintl.cn^
 ||ndcjl.com^
 ||p66-plat.ndcjl.com^
-||chinanetcenter.com^
 ||sdkoptedge.chinanetcenter.com^
 ||httpdns.alicdn.com^
 ||httpdns.bcelive.com^
-||ddssc.cn^
 ||vp1.ddssc.cn^
 ||51.la^
 ||51la^
