@@ -1,0 +1,43 @@
+!======================================
+! 分类: 通用去广告
+! 说明: 拦截各 APP / 网站的广告 SDK、开屏、信息流、横幅广告域名
+! 格式: AdGuard 规则
+!   ||example.com^        拦截该域名及其所有子域名
+!   @@||example.com^      白名单例外（优先级最高）
+!   /regex/               正则匹配
+!   ! 开头为注释
+!======================================
+
+! --- 谷歌广告 ---
+||doubleclick.net^
+||googlesyndication.com^
+||googleadservices.com^
+||googletagservices.com^
+
+! --- 字节跳动广告 ---
+||ad.toutiao.com^
+||ad.dwstatic.com^
+||ad.oceanengine.com^
+||is.snssdk.com^
+
+! --- 腾讯广告 ---
+||ad.qq.com^
+||ad.tencentmusic.com^
+||adexpo.tencentmusic.com^
+||pgdt.ugdtimg.com^
+
+! --- 阿里巴巴广告 ---
+||amdc.m.taobao.com^
+||acs4baichuan.m.taobao.com^
+
+! --- 百度广告 ---
+||pos.baidu.com^
+||cpro.baidu.com^
+||mobads.baidu.com^
+||mobads-logs.baidu.com^
+
+! --- 其他常见广告 ---
+||adview.cn^
+||adcdn.com^
+||adcolony.com^
+||adsame.cn^
