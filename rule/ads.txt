@@ -218,3 +218,8 @@
 ! httpdns.bcelive.com = 第三方HTTPDNS
 ||httpdns.alicdn.com^
 ||httpdns.bcelive.com^
+!
+! --- 视频流广告（多轮重启抓包发现） ---
+! vp1.ddssc.cn = 短视频/视频流广告CDN
+||ddssc.cn^
+||vp1.ddssc.cn^
