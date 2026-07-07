@@ -1,0 +1,44 @@
+name: 自动构建规则
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'rule/**'
+      - 'scripts/**'
+      - '.github/workflows/**'
+  schedule:
+    # 每天北京时间 00:00 自动构建（UTC 16:00 = 北京次日 00:00）
+    - cron: '0 16 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v4
+
+      - name: 配置 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 构建主规则文件
+        run: python scripts/build.py
+
+      - name: 提交并推送
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add MyRule.txt
+          if git diff --cached --quiet; then
+            echo "无变更，跳过提交"
+          else
+            git commit -m "chore: 自动更新主规则文件 ($(date -u +%Y-%m-%d))"
+            git push
+          fi
