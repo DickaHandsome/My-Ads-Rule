@@ -156,3 +156,18 @@
 ||supersonicads.com^
 ||mintegral.com^
 ||fyber.com^
+
+! ========== com.pathrecall.gj（轨迹记录 - 上传用户图片/视频到第三方服务器） ==========
+! 来源: ADB tcpdump 抓包 + Host 头分析 (2026-07-07)
+! App版本: 5.0.0 | UID: 10288 | User-Agent: Dalvik/2.1.0, Mozi
+! wim.xzjykj.com = 用户上传的图片/缩略图CDN
+! swimg.xzjykj.com = 用户头像服务器
+! xsp.gslock.com = 视频流m3u8主控 (含uid=用户标识)
+! xspw.skzsz.com = 视频流.ts分片CDN
+||xzjykj.com^
+||swimg.xzjykj.com^
+||wim.xzjykj.com^
+||gslock.com^
+||xsp.gslock.com^
+||skzsz.com^
+||xspw.skzsz.com^
