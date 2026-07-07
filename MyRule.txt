@@ -1,16 +1,17 @@
 !Title: My Ads Rule
 !======================================
-!Total lines: 507
+!Total lines: 482
 !Version: v2026.07.07
 
 !Homepage: https://github.com/DickaHandsome/My-Ads-Rule
 !License: https://github.com/DickaHandsome/My-Ads-Rule/blob/main/LICENSE
 
 ! 分类统计:
-!   - ads: 157 条
-!   - malware: 228 条
+!   - ads: 132 条
+!   - malware: 226 条
 !   - privacy: 124 条
 !======================================
+
 ||doubleclick.net^
 ||googlesyndication.com^
 ||googleadservices.com^
@@ -143,31 +144,6 @@
 ||supersonicads.com^
 ||mintegral.com^
 ||fyber.com^
-||aiyituo.com^
-||ad-cdn.aiyituo.com^
-||zhangyuyidong.cn^
-||adm.zhangyuyidong.cn^
-||sdk.zhangyuyidong.cn^
-||sdklog.zhangyuyidong.cn^
-||xcultur.com^
-||api.ssp.xcultur.com^
-||beizi.biz^
-||api-htp.beizi.biz^
-||sdk.beizi.biz^
-||1rtb.net^
-||sdk.1rtb.net^
-||fancyapi.com^
-||g.fancyapi.com^
-||t2.fancyapi.com^
-||lftxali.fancyapi.com^
-||adintl.cn^
-||v.adintl.cn^
-||ndcjl.com^
-||p66-plat.ndcjl.com^
-||sdkoptedge.chinanetcenter.com^
-||httpdns.alicdn.com^
-||httpdns.bcelive.com^
-||vp1.ddssc.cn^
 ||51.la^
 ||51la^
 ||cnzz.com^
