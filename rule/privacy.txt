@@ -1,0 +1,45 @@
+!======================================
+! 分类: 隐私追踪拦截
+! 说明: 拦截统计分析、埋点、用户行为追踪、设备指纹类域名
+! 格式: AdGuard 规则
+!======================================
+
+! --- 友盟 / 阿里统计 ---
+||umeng.com^
+||umeng.co^
+||ulogs.umeng.com^
+||aaid.umeng.com^
+||pl.umeng.com^
+
+! --- 神策数据 ---
+||sensorsdata.cn^
+||sensors.com^
+
+! --- TalkingData ---
+||applovin.com^
+||a.talkingdata.com^
+
+! --- AppsFlyer ---
+||appsflyer.com^
+||onelink.me^
+
+! --- Adjust ---
+||adjust.com^
+||adjust.io^
+||adjust.cn^
+
+! --- 极光统计 ---
+||jpush.cn^
+||jstats.cn^
+
+! --- 百度统计 ---
+||hm.baidu.com^
+||pingjs.baidu.com^
+||sp0.baidu.com^
+
+! --- 其他追踪 ---
+||flurry.com^
+||mixpanel.com^
+||amplitude.com^
+||segment.io^
+||branch.io^
