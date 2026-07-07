@@ -1,13 +1,13 @@
 !Title: My Ads Rule
 !======================================
-!Total lines: 480
+!Total lines: 487
 !Version: v2026.07.07
 
 !Homepage: https://github.com/DickaHandsome/My-Ads-Rule
 !License: https://github.com/DickaHandsome/My-Ads-Rule/blob/main/LICENSE
 
 ! 分类统计:
-!   - ads: 130 条
+!   - ads: 137 条
 !   - malware: 228 条
 !   - privacy: 124 条
 !======================================
@@ -141,6 +141,13 @@
 ||supersonicads.com^
 ||mintegral.com^
 ||fyber.com^
+||xzjykj.com^
+||swimg.xzjykj.com^
+||wim.xzjykj.com^
+||gslock.com^
+||xsp.gslock.com^
+||skzsz.com^
+||xspw.skzsz.com^
 ||51.la^
 ||51la^
 ||cnzz.com^
