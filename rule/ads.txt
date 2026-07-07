@@ -159,37 +159,24 @@
 ||mintegral.com^
 ||fyber.com^
 
-! ========== com.pathrecall.gj（轨迹记录 - 上传用户图片/视频/广告/追踪） ==========
-! 来源: ADB tcpdump 两次深度抓包 + Host 头分析 (2026-07-07)
-! App版本: 5.0.0 | UID: 10288 | User-Agent: Dalvik/2.1.0, Mozi
+! ========== com.pathrecall.gj（轨迹记录 - 广告/追踪规则） ==========
+! 来源: ADB tcpdump 三次深度抓包 + Host 头分析 (2026-07-07)
+! App版本: 5.0.0 | UID: 10288
 ! 
-! --- 用户数据上传 ---
-! wim.xzjykj.com = 用户上传的图片/缩略图CDN
-! swimg.xzjykj.com = 用户头像服务器
-! xsp.gslock.com = 视频流m3u8主控 (含uid=用户标识)
-! xspw.skzsz.com = 视频流.ts分片CDN
-||xzjykj.com^
-||wim.xzjykj.com^
-||swimg.xzjykj.com^
-||gslock.com^
-||xsp.gslock.com^
-||skzsz.com^
-||xspw.skzsz.com^
+! 注意: 以下为该 App 的广告 SDK / SSP / RTB 竞价平台域名
+! 不拦截其自有内容 CDN (xzjykj.com/gslock.com/skzsz.com)
+! 这 3 个CDN 同时承载用户上传图片和视频流播放，拦截会导致播放失败
 !
-! --- 广告 SDK & 竞价平台 ---
-! ad-cdn.aiyituo.com = 广告素材CDN
-! adm.zhangyuyidong.cn = 广告管理 /api/v4/ad/ti
-! sdk.zhangyuyidong.cn = 广告SDK核心
-! sdklog.zhangyuyidong.cn = 广告日志/行为上报
-! api.ssp.xcultur.com = SSP广告竞价平台
-! api-htp.beizi.biz = 广告实时竞价 /b?...&m5=__IDFA__
-! sdk.beizi.biz = 广告SDK初始化
-! sdk.1rtb.net = 广告RTB竞价
-! g.fancyapi.com = 广告接口
-! t2.fancyapi.com = 广告接口(备用)
-! v.adintl.cn = 广告服务
-! p66-plat.ndcjl.com = 广告聚合平台
-! sdkoptedge.chinanetcenter.com = 广告优化/CDN
+! --- 纯广告 SDK & 竞价平台 ---
+! aiyituo.com = 广告素材CDN
+! zhangyuyidong.cn = 广告管理 /api/v4/ad/ti + SDK核心 + 日志上报
+! xcultur.com = SSP广告竞价平台
+! beizi.biz = 广告实时竞价 /b?...&m5=__IDFA__ + SDK初始化
+! 1rtb.net = 广告RTB竞价
+! fancyapi.com = 广告接口 (含g/t2/lftxali子域名)
+! adintl.cn = 广告服务
+! ndcjl.com = 广告聚合平台
+! chinanetcenter.com = 广告优化CDN
 ||aiyituo.com^
 ||ad-cdn.aiyituo.com^
 ||zhangyuyidong.cn^
@@ -206,11 +193,11 @@
 ||fancyapi.com^
 ||g.fancyapi.com^
 ||t2.fancyapi.com^
+||lftxali.fancyapi.com^
 ||adintl.cn^
 ||v.adintl.cn^
 ||ndcjl.com^
 ||p66-plat.ndcjl.com^
-||chinanetcenter.com^
 ||sdkoptedge.chinanetcenter.com^
 !
 ! --- HTTPDNS（绕过系统DNS解析广告域名） ---
@@ -219,7 +206,6 @@
 ||httpdns.alicdn.com^
 ||httpdns.bcelive.com^
 !
-! --- 视频流广告（多轮重启抓包发现） ---
-! vp1.ddssc.cn = 短视频/视频流广告CDN
-||ddssc.cn^
+! --- 视频流广告CDN ---
+! vp1.ddssc.cn = 视频/短视频广告CDN
 ||vp1.ddssc.cn^
