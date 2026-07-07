@@ -1,0 +1,62 @@
+!Title: My Ads Rule
+!======================================
+!Total lines: 49
+!Version: v2026.07.07
+
+!Homepage: https://github.com/DickaHandsome/My-Ads-Rule
+!License: https://github.com/DickaHandsome/My-Ads-Rule/blob/main/LICENSE
+
+! 分类统计:
+!   - ads: 22 条
+!   - malware: 3 条
+!   - privacy: 24 条
+!======================================
+||doubleclick.net^
+||googlesyndication.com^
+||googleadservices.com^
+||googletagservices.com^
+||ad.toutiao.com^
+||ad.dwstatic.com^
+||ad.oceanengine.com^
+||is.snssdk.com^
+||ad.qq.com^
+||ad.tencentmusic.com^
+||adexpo.tencentmusic.com^
+||pgdt.ugdtimg.com^
+||amdc.m.taobao.com^
+||acs4baichuan.m.taobao.com^
+||pos.baidu.com^
+||cpro.baidu.com^
+||mobads.baidu.com^
+||mobads-logs.baidu.com^
+||adview.cn^
+||adcdn.com^
+||adcolony.com^
+||adsame.cn^
+||51.la^
+||cnzz.com^
+||baidu.com^$third-party,domain=tracking
+||umeng.com^
+||umeng.co^
+||ulogs.umeng.com^
+||aaid.umeng.com^
+||pl.umeng.com^
+||sensorsdata.cn^
+||sensors.com^
+||applovin.com^
+||a.talkingdata.com^
+||appsflyer.com^
+||onelink.me^
+||adjust.com^
+||adjust.io^
+||adjust.cn^
+||jpush.cn^
+||jstats.cn^
+||hm.baidu.com^
+||pingjs.baidu.com^
+||sp0.baidu.com^
+||flurry.com^
+||mixpanel.com^
+||amplitude.com^
+||segment.io^
+||branch.io^
