@@ -157,17 +157,62 @@
 ||mintegral.com^
 ||fyber.com^
 
-! ========== com.pathrecall.gj（轨迹记录 - 上传用户图片/视频到第三方服务器） ==========
-! 来源: ADB tcpdump 抓包 + Host 头分析 (2026-07-07)
+! ========== com.pathrecall.gj（轨迹记录 - 上传用户图片/视频/广告/追踪） ==========
+! 来源: ADB tcpdump 两次深度抓包 + Host 头分析 (2026-07-07)
 ! App版本: 5.0.0 | UID: 10288 | User-Agent: Dalvik/2.1.0, Mozi
+! 
+! --- 用户数据上传 ---
 ! wim.xzjykj.com = 用户上传的图片/缩略图CDN
 ! swimg.xzjykj.com = 用户头像服务器
 ! xsp.gslock.com = 视频流m3u8主控 (含uid=用户标识)
 ! xspw.skzsz.com = 视频流.ts分片CDN
 ||xzjykj.com^
-||swimg.xzjykj.com^
 ||wim.xzjykj.com^
+||swimg.xzjykj.com^
 ||gslock.com^
 ||xsp.gslock.com^
 ||skzsz.com^
 ||xspw.skzsz.com^
+!
+! --- 广告 SDK & 竞价平台 ---
+! ad-cdn.aiyituo.com = 广告素材CDN
+! adm.zhangyuyidong.cn = 广告管理 /api/v4/ad/ti
+! sdk.zhangyuyidong.cn = 广告SDK核心
+! sdklog.zhangyuyidong.cn = 广告日志/行为上报
+! api.ssp.xcultur.com = SSP广告竞价平台
+! api-htp.beizi.biz = 广告实时竞价 /b?...&m5=__IDFA__
+! sdk.beizi.biz = 广告SDK初始化
+! sdk.1rtb.net = 广告RTB竞价
+! g.fancyapi.com = 广告接口
+! t2.fancyapi.com = 广告接口(备用)
+! v.adintl.cn = 广告服务
+! p66-plat.ndcjl.com = 广告聚合平台
+! sdkoptedge.chinanetcenter.com = 广告优化/CDN
+||aiyituo.com^
+||ad-cdn.aiyituo.com^
+||zhangyuyidong.cn^
+||adm.zhangyuyidong.cn^
+||sdk.zhangyuyidong.cn^
+||sdklog.zhangyuyidong.cn^
+||xcultur.com^
+||api.ssp.xcultur.com^
+||beizi.biz^
+||api-htp.beizi.biz^
+||sdk.beizi.biz^
+||1rtb.net^
+||sdk.1rtb.net^
+||fancyapi.com^
+||g.fancyapi.com^
+||t2.fancyapi.com^
+||adintl.cn^
+||v.adintl.cn^
+||ndcjl.com^
+||p66-plat.ndcjl.com^
+||chinanetcenter.com^
+||sdkoptedge.chinanetcenter.com^
+!
+! --- HTTPDNS（绕过系统DNS解析广告域名） ---
+! httpdns.alicdn.com = 阿里HTTPDNS
+! httpdns.bcelive.com = 第三方HTTPDNS
+||httpdns.alicdn.com^
+||httpdns.bcelive.com^
