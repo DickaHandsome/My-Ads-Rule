@@ -1,16 +1,17 @@
 !Title: My Ads Rule
 !======================================
-!Total lines: 511
+!Total lines: 513
 !Version: v2026.07.07
 
 !Homepage: https://github.com/DickaHandsome/My-Ads-Rule
 !License: https://github.com/DickaHandsome/My-Ads-Rule/blob/main/LICENSE
 
-! 分类统计:
-!   - ads: 161 条
+! 分级统计:
+!   - ads: 163 条
 !   - malware: 228 条
 !   - privacy: 124 条
 !======================================
+
 ||doubleclick.net^
 ||googlesyndication.com^
 ||googleadservices.com^
@@ -82,9 +83,11 @@
 ||sdkconfig.ad.xiaomi.com^
 ||ad.partner.gifshow.com^
 ||adkwai.com^
+||kwimgs.com^
 ||js-ad.a.kwimgs.com^
 ||js-ad-e.kwimgs.com^
 ||js-ad-p.kwimgs.com^
+||hw2.a.kwimgs.com^
 ||api-sjz.kwaizt.com^
 ||admusicpic.music.126.net^
 ||ads.music.126.net^
