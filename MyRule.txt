@@ -1,7 +1,7 @@
 !Title: My Ads Rule
 !======================================
 !Total lines: 482
-!Version: v2026.07.22
+!Version: v2026.07.23
 
 !Homepage: https://github.com/DickaHandsome/My-Ads-Rule
 !License: https://github.com/DickaHandsome/My-Ads-Rule/blob/main/LICENSE
